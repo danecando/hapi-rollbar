@@ -1,6 +1,6 @@
 {
   "name": "hapi-rollbar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Hapi plugin for rollbar logging service",
   "main": "lib/index.js",
   "scripts": {
