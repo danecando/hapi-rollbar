@@ -1,0 +1,37 @@
+{
+  "name": "hapi-rollbar",
+  "version": "1.0.5",
+  "description": "Hapi plugin for rollbar logging service",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danecando/hapi-rollbar.git"
+  },
+  "keywords": [
+    "hapi",
+    "rollbar",
+    "logging"
+  ],
+  "author": "Dane Grant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danecando/hapi-rollbar/issues"
+  },
+  "homepage": "https://github.com/danecando/hapi-rollbar#readme",
+  "dependencies": {
+    "joi": "^8.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.12.0"
+  },
+  "peerDependencies": {
+    "hapi": "13.x.x",
+    "rollbar": "0.6.x"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
